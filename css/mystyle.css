@@ -7,10 +7,12 @@
 }
 
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:unset;
+    background-color: rgb(209, 199, 199);
 }
 
-/* nav{
+
+ nav{
     background: aqua;
     height: 80px;
     width: 100%;
@@ -53,6 +55,8 @@ a.active, a.hover {
 }  */
 
 
+
+
 .nav-container{
     width: 100%;
 }
@@ -71,3 +75,26 @@ nav{
 .logo{
     grid-column: 2;
 }
+
+
+button{
+    background-color: rgb(88, 221, 88);
+    color: whitesmoke;
+}
+
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";}
+    
+    .hero-about{
+        width: 50%;
+    }
+
+    .img-container{
+        width: 50%%;
+    }
+
+ 
