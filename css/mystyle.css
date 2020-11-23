@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&family=Ubuntu:wght@300&display=swap');
 
 
+
+
 *{
     padding: 0;
     margin: 0;
@@ -12,10 +14,39 @@
 
 body{
     font-family:'Slabo 27px', serif; 
-    background-color: rgb(209, 199, 199);}
+    background-color: rgb(209, 199, 199);
+}
 h1{
 font-family: 'Ubuntu', sans-serif;
 }
+p{
+    font-size: 20px;
+}
+button{
+    background-color: rgb(88, 221, 88);
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -71,7 +102,36 @@ nav{
     height: 32px;
 }
 
+.explore-flex{
+    display: flex;
+    flex-direction: column    
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navbar mediaquery*/
 @media only screen and (max-width: 640px){
 
 
@@ -107,80 +167,116 @@ nav li {
 .img-container{
     display: flex;
     flex-direction: column;
-    
-
-
-
 }
+
 /*Navbar-end */
 
 
 
 
-}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-button{
-    background-color: rgb(88, 221, 88);
-    color: whitesmoke;
-}
-
-a[href^="mailto"]::before {
-    content: "📧 ";
-}
-
-a[href^="tel"]::before {
-    content: "📞";}
+/*About mediaQuery*/
+.hero-about{
+    display: flex;
     
-    .hero-about{
-        display: flex;
-        
-        max-width: 700px;
-        
-    }
-
+    max-width: 700px;
     
-
-
-
-
-
+}
 
 .logo{
-    display: inline-block;
-    position: relative;
-    width: 10px;
-    left:-1900px;
-    top: -100px;
-    max-width: 100%;
-    
+display: inline-block;
+position: relative;
+width: 10px;
+left:-1900px;
+top: -100px;
+max-width: 100%;
+
 }
 .img-container{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
+display: flex;
+flex-direction: row-reverse;
+width: 100%;
 
-   
+
+
+
+
 }
 
-    
-    
+}
+
+/*Footer*/
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;}
+
+.main-content{
+
+color: white;
+background-color: lightgreen
+}
+
+.right-box{
+position: absolute;
+right: 590px;
+}
+
+.main-contant .box{
+
+flex-basis: 50%;
+padding: 10px 20px;
+
+}
+
+.box h2{
+font-size: 1.125rem;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.box .content{
+margin: 20px 0 0 0;
+}
+
+
+
+
+
+.left .content .social a span{
+height: 40px;
+width: 40px;
+background: #1a1a1a;
+font-size: 18px;
+border-radius: 5px;
+transition: 0.3s;
+} 
+
+
+
+.left .cntent .social a span :hover{
+background: lightblue;
+}
+
+.social :hover{
+color: lightgreen;
+}
+
+
+
+/*front*/
+
+.hero-front
+{
+ width: 200px;
+ height: 200px;
+}
 
 
 
 
 
 
- 
+
