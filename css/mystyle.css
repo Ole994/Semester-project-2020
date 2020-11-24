@@ -3,7 +3,7 @@
 
 
 
-
+/*Body stuff*/
 *{
     padding: 0;
     margin: 0;
@@ -27,157 +27,59 @@ button{
     color: whitesmoke;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Body stuff ends*/
 
 
 /*Nav-bar*/
-header{
-   background: #618b5c;
-   width: 100%;
-   height: 76px;
-   position: fixed;
-   top: 0;
-   left: 0;
-   z-index: 100;
-   border-bottom: 5px solid #6cebb6;
-}
 
-ul{
-    list-style: none;   
-}
 
-li{
-    display: inline-block;
-    float: left;
-    padding: 10px;
-}
 
-a{
-    color: #FFF;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-a:hover{
-    text-decoration: underline;
-}
 
-#logo{
-    margin: 20px;
-    float: left;
-    width: 200px;
-    height: 50px;
-    background: url(media/bars-solid.svg) no-repeat center;
-    display: block;
-}
 
-nav{
-    float: right;
-    padding: 20px;
-}
-#menu-icon{
-    background: i;
-    display: hidden;
-    width: 32px;
-    height: 32px;
-}
 
-.explore-flex{
-    display: flex;
-    flex-direction: column    
+
+
+
+
+/*Mediaquery*/
+@media only screen and   (min-width: 300px)  (max-width: 640px){
+
+
+body{
+
+    margin: 10px;
+}    
+p{
+    font-size: 18px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Navbar mediaquery*/
-@media only screen and (max-width: 640px){
-
-
-    
-header{
-    position: absolute;
-}
-#menu-icon{
-    display: inline-block;
-}
-
-
-nav ul, nav:active ul{
-    display: none;
-    position: absolute;
-    padding:20px;
-    background: #c5c5c5;
-    right: 10px;
-    top: 65px;
-    width: 35%;
-}
-
-nav:hover ul{
-    display:block
-}
-
-nav li {
-    text-align: center;
-    width: 100%;
-    padding: 15px 0;
-    margin: 0;
-}
-.img-container{
-    display: flex;
-    flex-direction: column;
-}
 
 /*Navbar-end */
 
 
+/*STILL-MEDIAQUERIES*/
+
+
+
+/*Mediaquery-Front*/
 
 
 
 
+.hero-front{
+    height: 100%;
+    width: 100%;
+}
 
-/*About mediaQuery*/
+
+
+/*Mediaquery-Front-ends*/
+
+
+/*Mediaquery-about*/
 .hero-about{
     display: flex;
     
@@ -198,25 +100,28 @@ max-width: 100%;
 display: flex;
 flex-direction: row-reverse;
 width: 100%;
-
-
-
-
-
 }
 
 }
+
+/*Mediaqueries end*/
+
+
 
 /*Footer*/
 footer{
-    position: fixed;
     bottom: 0px;
-    width: 100%;}
+    width: 100%;
+    
+}
 
 .main-content{
 
 color: white;
-background-color: lightgreen
+background-color: black;
+display: flex;
+flex-direction: column;
+
 }
 
 .right-box{
@@ -266,13 +171,7 @@ color: lightgreen;
 
 
 
-/*front*/
 
-.hero-front
-{
- width: 200px;
- height: 200px;
-}
 
 
 
