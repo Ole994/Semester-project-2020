@@ -22,10 +22,65 @@ font-family: 'Ubuntu', sans-serif;
 p{
     font-size: 20px;
 }
+h2{
+    font-size: 18px;
+}
 button{
     background-color: rgb(88, 221, 88);
     color: whitesmoke;
+
+
+
+
+
+
+    
 }
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    
+    
+}
+
+
+}
+
+footer p {
+    padding: 20px 10px;
+}
+
+footer i {
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+.box h2{
+font-size: 1.125rem;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.box .content{
+margin: 20px 0 0 0;
+}
+
+
+
+
+
+
 
 /*Body stuff ends*/
 
@@ -42,15 +97,64 @@ button{
 
 
 
-/*Mediaquery*/
-@media only screen and   (min-width: 300px)  (max-width: 640px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mediaquery-Front-ends*/
+
+
+/*Mediaquery-about*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mediaquery for desktop*/
+@media only screen and   (min-width: 414px)  
 
 
 body{
 
     margin: 10px;
 }    
-p{
+p, a{
     font-size: 18px;
 }
 
@@ -68,106 +172,31 @@ p{
 
 
 
-
-.hero-front{
-    height: 100%;
-    width: 100%;
+h2{
+    font-size: 19px;
 }
 
 
-
-/*Mediaquery-Front-ends*/
-
-
-/*Mediaquery-about*/
-.hero-about{
-    display: flex;
-    
-    max-width: 700px;
+.heroFront {
+    max-width: ;
     
 }
 
-.logo{
-display: inline-block;
-position: relative;
-width: 10px;
-left:-1900px;
-top: -100px;
-max-width: 100%;
 
-}
-.img-container{
-display: flex;
-flex-direction: row-reverse;
-width: 100%;
-}
 
-}
+
+
+
+
 
 /*Mediaqueries end*/
 
 
 
-/*Footer*/
-footer{
-    bottom: 0px;
-    width: 100%;
-    
-}
-
-.main-content{
-
-color: white;
-background-color: black;
-display: flex;
-flex-direction: column;
-
-}
-
-.right-box{
-position: absolute;
-right: 590px;
-}
-
-.main-contant .box{
-
-flex-basis: 50%;
-padding: 10px 20px;
-
-}
-
-.box h2{
-font-size: 1.125rem;
-font-weight: 600;
-text-transform: uppercase;
-}
-
-.box .content{
-margin: 20px 0 0 0;
-}
 
 
 
 
-
-.left .content .social a span{
-height: 40px;
-width: 40px;
-background: #1a1a1a;
-font-size: 18px;
-border-radius: 5px;
-transition: 0.3s;
-} 
-
-
-
-.left .cntent .social a span :hover{
-background: lightblue;
-}
-
-.social :hover{
-color: lightgreen;
-}
 
 
 
