@@ -11,22 +11,51 @@
     list-style: none;
     box-sizing: border-box;
 }
+p {
+    margin-bottom: 10px;
+}
+
+body{
+    font-family:'Slabo 27px', serif; 
+    background-color: #cad0d1;
+}
+h1, h2, h3,{
+    font-family: 'Ubuntu', sans-serif;
+}                     
+
+
+h2{
+    font-size: 20px;
+    margin: 20px 0;
+}
+p, a{
+    font-size: 16px;
+}
 
 a {
     color: white;
 }
 
+a :hover{
+    color: greenyellow;
+    background-color: white;
+}
+
 nav {
     display: flex;
-    background-color: black;
+    background-color: rgb(47, 144, 151);
     height: 60px;
     justify-content: center;
     align-items: center;
+}
+nav :hover{
+    color: lightblue;
 }
 
 .logo {
     width: 40px;
     height: 40px;
+    border-radius: 40px;
 }
 
 ul {
@@ -36,9 +65,19 @@ ul {
 li {
     padding: 0 10px;
 }
+button{
+    background-color: rgb(88, 221, 88);
+    color: whitesmoke;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+}
 
 .heroImg {
     width: 100vw;
+}
+.h1-ind{
+    color: whitesmoke;
 }
 
 
@@ -62,15 +101,32 @@ li {
 
 
 .h1-front{
-    color: white;
+    color:whitesmoke;
     background-color: unset;
 }
 
 .pic-front{
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 170px;
+    
 }
+
+.pic-front1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin: 30px 0;
+    height: 350px;
+}
+
 .pic2-front{
     width: 70vw;
+    
 }
 
 .icon {
@@ -82,48 +138,177 @@ li {
 
 
 
-body{
-    font-family:'Slabo 27px', serif; 
-    background-color: #bcbfbe;
-}
-h1, h2, h3,{
-    font-family: 'Ubuntu', sans-serif;                                    
-}
 
-p{
-    font-size: 20px;
-}
-h2{
-    font-size: 18px;
-}
-button{
-    background-color: rgb(88, 221, 88);
+.buttom-text{
+    background-color: rgb(70, 184, 136);
+    border-radius: 10px;
     color: whitesmoke;
+    display: flex;
+    margin: 60px auto;
+    width: 302px;
+
+
+}
+
+.button-front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+}
+.exp-box1{
+    width: 100%;
+}
+
+.hero-exp{
+    display: flex;
+    align-items: center;
+    background-image: url(/media/Explore/hero-explore.jpg);
+    background-size: cover;
+    height: 280px;
+}
+
+.index-box1{
+    display: flex;
+    align-items: center;
+    background-image: url(/media/front/hero-picture-photoshop.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+
+.h1-explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+.explore-event{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    
+    
+}
+
+.border {
+    border-bottom: black 1px solid;
+    margin-bottom: 20px;
+}
+
+.exp-event{
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.single-pic{
+    width: 250px;
+    margin: 20px auto;
+    
+
+  
+    
+}
+.exp-container{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+background-color: rgb(190, 220, 224);
+box-shadow: yellowgreen;
+margin-bottom: 100px;
+}
+
+.exp-pic{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+   
+}
+
+.exp-flex{
+    width: 150px;
+    border-radius: 30%;
+    height: 200px;    
+}
+
+.img-humans{
+    width: 200px;
+}
+
+.kids-img-move{
+
+border-bottom: black 1px solid;
+display: flex;
+justify-content: center;
+}
+
+.teacher-img-move{
+    border-bottom: black 1px solid;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.p-buttom{
+    background-color: whitesmoke;
 }
 
 
 
+/*Contact-box*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 40px;
+  }
 
+.h1-get{
+    display: flex;
+    /* align-items: center; */
+    padding-left: 20px;
+    background-size: cover;
+    height: 400px;
+    background-image: url(/media/Get-involved/get-involved-support.jfif);
+    color: rgb(0, 0, 0);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.support-img{
+    width: 100%;
+}
 
 
 
@@ -136,135 +321,30 @@ footer{
     align-items: center;
     bottom: 0px;
     width: 100%;
-    background-color: white;
-    
+    background-color: rgb(255, 255, 255);
+    height: 40px;
     
 }
 
 
-}
+
+
+
 
 footer p {
     padding: 20px 10px;
+    background-color: lightblue;
 }
 
 footer i {
     padding-left: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Body stuff ends*/
-
-
-/*Nav-bar*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Mediaquery-Front-ends*/
-
-
-/*Mediaquery-about*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Mediaquery for desktop*/
-@media only screen and   (min-width: 414px)  
-
-
-body{
-
-    margin: 10px;
-}    
-p, a{
-    font-size: 18px;
-}
-
-
-
-
-/*Navbar-end */
-
-
-/*STILL-MEDIAQUERIES*/
-
-
-
-/*Mediaquery-Front*/
-
-
-
-h2{
-    font-size: 19px;
-}
-
-
-.heroFront {
-    max-width: ;
     
-}
+
+
+
+
 
 
 
