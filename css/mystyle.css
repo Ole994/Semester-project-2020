@@ -1,39 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+:root {
+    --bg-color: #f2f2f2;
+    --test-color: rgb(235, 94, 0);
+}
 
 
 /*Body stuff*/
 * {
     padding: 0;
     margin: 0;
-    text-decoration: none;
-    list-style: none;
     box-sizing: border-box;
+    font-family:'Libre Baskerville', serif;
 }
 p {
     margin-bottom: 10px;
+    font-family:'Inconsolata', monospace;
 }
 
-body{
-    font-family:'Slabo 27px', serif; 
-    background-color: #cad0d1;
+.text-wrapper {
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
 }
-h1, h2, h3,{
-    font-family: 'Ubuntu', sans-serif;
-}                     
 
-
-h2{
-    font-size: 20px;
-    margin: 20px 0;
-}
 p, a{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a :hover{
@@ -45,9 +43,11 @@ nav {
     display: flex;
     background-color: rgb(47, 144, 151);
     height: 60px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 60px;
 }
+
 nav :hover{
     color: lightblue;
 }
@@ -59,12 +59,14 @@ nav :hover{
 }
 
 ul {
-    display: flex;
+    display: none;
+    list-style: none;
 }
 
 li {
     padding: 0 10px;
 }
+
 button{
     background-color: rgb(88, 221, 88);
     color: whitesmoke;
@@ -73,13 +75,14 @@ button{
     height: 50px;
 }
 
+/*Home-page*/
 .heroImg {
     width: 100vw;
 }
+
 .h1-ind{
     color: whitesmoke;
 }
-
 
 .icon-front{
    display: flex;
@@ -99,7 +102,6 @@ button{
     padding: 10px;
 }
 
-
 .h1-front{
     color:whitesmoke;
     background-color: unset;
@@ -110,8 +112,7 @@ button{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 170px;
-    
+    margin-top: 170px;    
 }
 
 .pic-front1 {
@@ -126,7 +127,6 @@ button{
 
 .pic2-front{
     width: 70vw;
-    
 }
 
 .icon {
@@ -136,9 +136,6 @@ button{
     border-radius: 100%;
 }
 
-
-
-
 .buttom-text{
     background-color: rgb(70, 184, 136);
     border-radius: 10px;
@@ -146,16 +143,12 @@ button{
     display: flex;
     margin: 60px auto;
     width: 302px;
-
-
 }
 
 .button-front{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
-
 }
 .exp-box1{
     width: 100%;
@@ -177,7 +170,7 @@ button{
     height: 400px;
 }
 
-
+/*Explore*/
 .h1-explore{
     display: flex;
     justify-content: center;
@@ -186,18 +179,17 @@ button{
     margin-left: 20px;
 }
 .explore-event{
-    width: 350px;
+    width: 370px;
     display: flex;
     justify-content: center;
     align-content: center;
     margin-top: 50px;
-    
-    
 }
 
 .border {
-    border-bottom: black 1px solid;
-    margin-bottom: 20px;
+    border-bottom: black 4px solid;
+    margin-bottom: 200px;
+    padding: 80px;
 }
 
 .exp-event{
@@ -206,14 +198,11 @@ button{
     margin: 0 auto;
     padding: 20px;
 }
-.single-pic{
-    width: 250px;
-    margin: 20px auto;
-    
 
-  
-    
+.alfa{
+    max-width: 100%;
 }
+
 .exp-container{
 display: flex;
 flex-wrap: wrap;
@@ -228,19 +217,28 @@ margin-bottom: 100px;
     display: flex;
     justify-content: space-between; 
     width: 100%;
-   
+}
+
+.box-exp{
+    background-color: burlywood;
+    padding: 20px;
 }
 
 .exp-flex{
-    width: 150px;
-    border-radius: 30%;
+    width: 200px;
+    border-radius: 10%;
     height: 200px;    
 }
 
 .img-humans{
     width: 200px;
 }
+.single-pic{
+    max-width: 100%;
+    
+}
 
+/*Info and contact-mobile*/
 .kids-img-move{
 
 border-bottom: black 1px solid;
@@ -255,13 +253,20 @@ justify-content: center;
     padding: 50px;
 }
 
+.feed{
+    width: 100%;
+    border-bottom: 40px solid rgb(255, 255, 255);
+}
+.map{
+    width: 100%;
+    border-bottom:10px solid rgba(138, 162, 168, 0.514);
+}
+
 .p-buttom{
     background-color: whitesmoke;
 }
 
-
-
-/*Contact-box*/
+/*Contact-box */
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -273,8 +278,7 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   
-  
-  input[type=submit] {
+input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -291,10 +295,12 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #b8bcbd;
     padding: 20px;
     margin-top: 40px;
   }
+
+  /*Support*/
 
 .h1-get{
     display: flex;
@@ -310,10 +316,203 @@ input[type=text], select, textarea {
     width: 100%;
 }
 
+.v{
+    width: 200px;
+    margin: 70px;
+    }
+
+.arm{
+    width: 200px;
+    margin: 70px;
+}
 
 
 
-/*Footer*/
+
+
+/*Desktop now*/
+
+@media only screen and (min-width:800px){
+
+body{ background-color: #f2f2f2;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+}
+#meny {
+    display: none;
+}
+header {
+    
+    background-color: rgb(48, 59, 59);
+}
+.index-box1{
+    
+    background-image: url(/media/front/hero-front.jpg);
+max-width: 100%;
+height: 700px;
+}
+
+.h1-ind{
+    color: #a9d6d6;
+    font-size: 70px;
+}
+
+.icon-front{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    max-width: unset;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.icon-front1 img {
+    border: black solid 3px;
+    width: 150px;
+    height: 150px;
+}
+
+nav {
+    display: flex;
+    background: transparent;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+a :hover{
+    color: greenyellow;
+    background-color: white;
+}
+
+
+/*Home-media*/
+
+.pic-front{
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: space-between; */
+    flex-wrap: nowrap;
+    /* margin-right: 220px; */
+    margin-top: 100px;
+    background-color: #9dafb1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+    
+    .pic2-front{
+       width: 300px; 
+    }
+
+    .buttom-text{
+        background-color: black;
+        display: flex;   
+    }
+
+    /*explore-media*/
+.main-exp{
+    background-color: #dfdfdf;
+}
+
+.hero-exp{
+    height: 800px;
+    width: 100%;
+}
+.h1-explore{
+    font-size: 70px;
+    margin: 500px 0 0 334px;
+}
+
+.cos-text{
+    /* margin: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.cos-info p{
+    width: 70%;
+    margin: auto;
+}
+
+.cos-info h2{
+    width: 70%;
+    margin:  0 auto 45px auto;
+}
+
+.cos-text img{
+    width: 40%;
+    margin-right: 130px;
+}
+
+.explore-event{
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    padding: 1px;
+    margin:0;
+}
+.p-kids-event{
+    text-align: center;
+}
+
+.single-pic{
+    
+    width: 50%;
+}
+
+.exp-container{
+display: flex;
+justify-content: space-evenly;
+}
+
+/*info-media*/
+
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.map{
+    max-width: 1000px;
+}
+.div-map{
+    display: flex;
+    justify-content: center
+}
+
+/*Get involved*/
+
+.h1-get{
+    width: 1000px;
+    margin: auto;
+}
+.support-img{
+    width: 800px;
+    margin: auto;
+}
+
+}
+    /*Footer*/
 footer{
     display: flex;
     justify-content: center;
@@ -321,26 +520,19 @@ footer{
     align-items: center;
     bottom: 0px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    height: 40px;
-    
+  background:   rgb(110, 194, 159);
 }
 
-
-
-
-
-
 footer p {
-    padding: 20px 10px;
-    background-color: lightblue;
+    padding: 20px 10px;    
 }
 
 footer i {
     padding-left: 40px;
 }
-
-    
+.icon-front1 a{
+    color: black;
+}
 
 
 
