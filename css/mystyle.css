@@ -6,13 +6,13 @@
     --test-color: rgb(235, 94, 0);
 }
 
-
 /*Body stuff*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family:'Libre Baskerville', serif;
+    
 }
 p {
     margin-bottom: 10px;
@@ -32,13 +32,16 @@ h1{
     max-width: 1000px;
 }
 
-p, a{
-    font-size: 20px;
+p{
+    font-size: 16px;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
 }
 
 a :hover{
@@ -48,11 +51,12 @@ a :hover{
 
 nav {
     display: flex;
-    background-color: rgb(47, 144, 151);
+    background-color: rgb(66, 66, 66);
     height: 60px;
     justify-content: space-between;
     align-items: center;
     padding: 0 60px;
+    
 }
 
 nav :hover{
@@ -66,12 +70,15 @@ nav :hover{
 }
 
 ul {
-    display: none;
+    
     list-style: none;
 }
 
 li {
     padding: 0 10px;
+}
+.nav-li{
+    font-size:16px;
 }
 
 button{
@@ -102,6 +109,7 @@ button{
     text-align: center;
 }
 
+
 .p-between{
     background-color: black;
     color: white;
@@ -119,7 +127,8 @@ button{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 170px;    
+    margin: 170px auto 0 auto;
+    max-width: 500px;    
 }
 
 .pic-front1 {
@@ -187,17 +196,17 @@ button{
     margin-left: 20px;
 }
 .explore-event{
-    width: 370px;
+    width: 380px;
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .border {
     border-bottom: black 4px solid;
-    margin-bottom: 200px;
-    padding: 80px;
+    margin-bottom: 20px;
+    
 }
 
 .exp-event{
@@ -218,6 +227,8 @@ flex-direction: row;
 justify-content: center;
 box-shadow: yellowgreen;
 margin-bottom: 100px;
+
+
 }
 
 .exp-pic{
@@ -277,6 +288,10 @@ justify-content: center;
     background-color: whitesmoke;
 }
 
+
+
+
+
 /*Contact-box */
 input[type=text], select, textarea {
     width: 100%; 
@@ -311,7 +326,20 @@ input[type=submit] {
     margin-top: 40px;
   }
 
+  .b-hours{
+    font-weight: bold;
+  }
+
+  .time-flex{
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     background-color: rgb(169, 173, 173);
+  }
+
   /*Support*/
+
+
 
 .h1-get{
     display: flex;
@@ -321,6 +349,7 @@ input[type=submit] {
     height: 400px;
     background-image: url(/media/Get-involved/get-involved-support.jfif);
     color: rgb(0, 0, 0);
+    margin: 0
 }
 
 .support-img{
@@ -336,6 +365,21 @@ input[type=submit] {
     width: 200px;
     margin: 70px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -414,14 +458,16 @@ a :hover{
     display: flex; 
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-top: 0;
+    margin-top: 0px;
     padding-top: 30px;
     background-color: #9dafb1;
+    width: unset;
 }
 
 .row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
 }
@@ -436,6 +482,7 @@ a :hover{
     /*explore-media*/
 .main-exp{
     background-color: #dfdfdf;
+    ;
 }
 
 .hero-exp{
@@ -448,7 +495,7 @@ a :hover{
 }
 
 .cos-text{
-    /* margin: 200px; */
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -514,6 +561,8 @@ justify-content: space-evenly;
     justify-content: center
 }
 
+
+
 /*Get involved*/
 
 .h1-get{
@@ -521,8 +570,11 @@ justify-content: space-evenly;
     margin: auto;
 }
 .support-img{
-    width: 800px;
+    width: 100px;
     margin: auto;
+    display: flex;
+    justify-content: center; 
+    width: 600px;   
 }
 
 }
@@ -551,11 +603,19 @@ footer i {
 }
 
 
-/*Footer2*/
 
-section{
 
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
