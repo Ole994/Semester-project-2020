@@ -461,7 +461,7 @@ a :hover{
     margin-top: 0px;
     padding-top: 30px;
     background-color: #9dafb1;
-    width: unset;
+    max-width: unset;
 }
 
 .row {
