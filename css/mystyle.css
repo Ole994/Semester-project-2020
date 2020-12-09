@@ -26,11 +26,9 @@ h1{
 }
 
 
-.text-wrapper {
-    width: 90%;
-    margin: auto;
-    max-width: 1000px;
-}
+
+
+
 
 p{
     font-size: 16px;
@@ -219,6 +217,7 @@ button{
     padding: 20px;
 }
 
+
 .alfa{
     max-width: 100%;
 }
@@ -264,6 +263,13 @@ margin-bottom: 100px;
 }
 
 /*Info and contact-mobile*/
+
+.text-wrapper {
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+}
+
 .kids-img-move{
 
 border-bottom: black 1px solid;
@@ -343,7 +349,11 @@ input[type=submit] {
   /*Support*/
 
 
-
+  .text-wrapper2{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+} 
 .h1-get{
     display: flex;
     /* align-items: center; */
@@ -352,7 +362,8 @@ input[type=submit] {
     height: 400px;
     background-image: url(/media/Get-involved/get-involved-support.jfif);
     color: rgb(0, 0, 0);
-    margin: 0
+    margin: 0;
+    max-width: 100%;
 }
 
 .support-img{
@@ -403,17 +414,17 @@ a{
 ul {
     display: flex;
 }
+
 #meny {
     display: none;
 }
+
 header {
-    
     background-color: rgb(48, 59, 59);
 }
-.index-box1{
-    
-    
-    background-image: url(/media/front/hero-front.jpg);
+
+.index-box1{    
+background-image: url(/media/front/hero-front.jpg);
 max-width: 100%;
 height: 700px;
 }
@@ -489,7 +500,10 @@ a :hover{
     /*explore-media*/
 .main-exp{
     background-color: #dfdfdf;
-    ;
+}
+
+.alfa{
+    width:px;
 }
 
 .hero-exp{
@@ -587,6 +601,10 @@ justify-content: space-evenly;
     justify-content: center; 
     width: 600px;   
 }
+
+
+
+
 
 }
 /*Mediaqueries end*/
