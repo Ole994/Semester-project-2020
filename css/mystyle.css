@@ -27,6 +27,7 @@ h1{
 
 p{
     font-size: 16px;
+     line-height: 110%;
 }
 
 a {
@@ -160,6 +161,10 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
+}
+.event-all{
+    margin-top: 20px;
 }
 
 .index-box1{
@@ -556,11 +561,11 @@ margin-top: 20px;
     margin: auto;
 }
 .support-img{
-    width: 100px;
+    width: 300px;
     margin: auto;
     display: flex;
     justify-content: center; 
-    width: 600px;   
+      
 }
 
 /*Mediaqueries end*/
@@ -569,7 +574,6 @@ margin-top: 20px;
 .img-humans{
     display:none
 }
-
 
 }
 /*Footer*/
