@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Libre+Baskerville&display=swap');
 
 :root {
     --bg-color: #f2f2f2;
@@ -11,25 +11,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Libre Baskerville', serif;
-    
-}
-p {
-    margin-bottom: 10px;
-    font-family:'Inconsolata', monospace;
-    margin: -1px;
+    font-family: 'Libre Baskerville', serif;    
 }
 
+p {
+    margin-bottom: 10px;
+    font-family:'Andika New Basic', sans-serif;
+    margin: -1px;
+}
 
 h1{
     text-align: center;
     margin: 20px 0;
 }
-
-
-
-
-
 
 p{
     font-size: 16px;
@@ -54,10 +48,7 @@ nav {
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
-    
-
-    
+    padding: 0 40px;    
 }
 
 nav :hover{
@@ -78,6 +69,7 @@ ul {
 li {
     padding: 0 10px;
 }
+
 .nav-li{
     font-size:16px;
 }
@@ -90,8 +82,7 @@ button{
     height: 50px;
 }
 
-
-/*Home-page*/
+/*Home-page mobile*/
 .heroImg {
     width: 100vw;
 }
@@ -112,7 +103,6 @@ button{
 .icon-front h3 {
     text-align: center;
 }
-
 
 .p-between{
     background-color: black;
@@ -172,7 +162,6 @@ button{
     align-items: center;
 }
 
-
 .index-box1{
     display: flex;
     align-items: center;
@@ -181,7 +170,7 @@ button{
     height: 400px;
 }
 
-/*Explore*/
+/*Explore mobile*/
 .exp-box1{
     width: 100%;
 }
@@ -221,7 +210,6 @@ button{
     padding: 20px;
 }
 
-
 .alfa{
     max-width: 100%;
 }
@@ -233,8 +221,6 @@ flex-direction: row;
 justify-content: center;
 box-shadow: yellowgreen;
 margin-bottom: 100px;
-
-
 }
 
 .exp-pic{
@@ -260,7 +246,7 @@ margin-bottom: 100px;
 }
 
 .img-humans{
-    width: 200px;
+    display: none;
 }
 .single-pic{
     max-width: 200px;
@@ -268,8 +254,7 @@ margin-bottom: 100px;
 }
 
 /*Info and contact-mobile*/
-
-.text-wrapper {
+.text-wrapper{
     width: 90%;
     margin: auto;
     max-width: 1000px;
@@ -307,10 +292,6 @@ justify-content: center;
     background-color: whitesmoke;
 }
 
-
-
-
-
 /*Contact-box */
 input[type=text], select, textarea {
     width: 100%; 
@@ -336,8 +317,7 @@ input[type=submit] {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
-  
+    
   .container {
     border-radius: 5px;
     background-color: #b8bcbd;
@@ -356,8 +336,7 @@ input[type=submit] {
      background-color: rgb(169, 173, 173);
   }
 
-  /*Support*/
-
+  /*Support mobile*/
 
   .text-wrapper2{
     width: 90%;
@@ -366,7 +345,6 @@ input[type=submit] {
 } 
 .h1-get{
     display: flex;
-    /* align-items: center; */
     padding-left: 20px;
     background-size: cover;
     height: 400px;
@@ -389,25 +367,6 @@ input[type=submit] {
     width: 200px;
     margin: 70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Desktop now*/
 
@@ -444,8 +403,6 @@ height: 700px;
     font-size: 43px;
     text-align: start;
     margin: 600px;
-    
-
 }
 
 .icon-front{
@@ -459,7 +416,7 @@ height: 700px;
     padding: 20px;
 }
 
-.icon-front1 img {
+.icon-front1 img{
     border: black solid 3px;
     width: 150px;
     height: 150px;
@@ -481,7 +438,6 @@ a :hover{
     background-color: white;
 }
 
-
 /*Home-media*/
 
 .pic-front{
@@ -502,14 +458,11 @@ a :hover{
     justify-content: space-evenly;
 }
 
-    
-    .pic2-front{
+.pic2-front{
        width: 300px; 
     }
 
-   
-
-    /*explore-media*/
+/*explore-media*/
 .main-exp{
     background-color: #dfdfdf;
 }
@@ -575,9 +528,6 @@ margin-top: 20px;
     text-align: center;
 }
 
-
-
-
 /*info-media*/
 
 .location{
@@ -586,7 +536,6 @@ margin-top: 20px;
     justify-content: space-evenly;
     align-items: center;
     margin-left: auto;
-
 }
 
 .map{
@@ -597,11 +546,10 @@ margin-top: 20px;
     justify-content: center
 }
 .img-humans{
+    display: flex;
     width: 200px;}
 
-
-
-/*Get involved*/
+/*Get involved media*/
 
 .h1-get{
     width: 1000px;
@@ -614,79 +562,66 @@ margin-top: 20px;
     justify-content: center; 
     width: 600px;   
 }
-
-
-
-
-
 }
 /*Mediaqueries end*/
 
+/*Footer*/
 
-
-
-
-
-.footer-distributed{
+.footer-all{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
- 
-	padding: 55px 50px;
-
+    padding: 55px 50px;
 }
  
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
+.footer-all .footer-left,
+.footer-all .footer-center,
+.footer-all .footer-right{
+display: inline-block;
+vertical-align: top;
 }
  
-.footer-distributed .footer-left{
-	width: 40%;
+.footer-all .footer-left{
+width: 40%;
 }
  
-.footer-distributed h3{
+.footer-all h3{
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
 }
  
-.footer-distributed h3 span{
+.footer-all h3 span{
 	color:  lightblue;
 }
- 
- 
-.footer-distributed .footer-links{
+  
+.footer-all .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
 }
  
-.footer-distributed .footer-links a{
+.footer-all .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
 }
  
-.footer-distributed .footer-company-name{
+.footer-all .footer-museum-name{
 	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
 }
- 
- 
-.footer-distributed .footer-center{
+.footer-all .footer-center{
 	width: 35%;
 }
  
-.footer-distributed .footer-center i{
+.footer-all .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
@@ -699,35 +634,35 @@ margin-top: 20px;
 	vertical-align: middle;
 }
  
-.footer-distributed .footer-center i.fa-envelope{
+.footer-all .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
  
-.footer-distributed .footer-center p{
+.footer-all .footer-center p{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
 }
  
-.footer-distributed .footer-center p span{
+.footer-all .footer-center p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
  
-.footer-distributed .footer-center p a{
+.footer-all .footer-center p a{
 	color: lightblue;
 	text-decoration: none;;
 }
  
-.footer-distributed .footer-right{
+.footer-all .footer-right{
 	width: 20%;
 }
  
-.footer-distributed .footer-company-about{
+.footer-all .footer-museum-about{
 	line-height: 35px;
 	color:  #92999f;
 	font-size: 13px;
@@ -735,7 +670,7 @@ margin-top: 20px;
 	margin: 0;
 }
  
-.footer-distributed .footer-company-about span{
+.footer-all .footer-company-about span{
 	display: block;
 	color:  #ffffff;
 	font-size: 14px;
@@ -743,11 +678,11 @@ margin-top: 20px;
 	margin-bottom: 35px;
 }
  
-.footer-distributed .footer-icons{
+.footer-all .footer-icons{
 	margin-top: 25px;
 }
  
-.footer-distributed .footer-icons a{
+.footer-all .footer-icons a{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
@@ -764,63 +699,22 @@ margin-top: 20px;
 	margin-bottom: 5px;
 }
  
- 
 @media (max-width: 880px) {
- 
-	.footer-distributed{
+    
+    .footer-all{
 		font: bold 14px sans-serif;
 	
-	}
- 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
+    }
+    
+	.footer-all .footer-left,
+	.footer-all .footer-center,
+	.footer-all .footer-right{
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
 	}
- 
-	.footer-distributed .footer-center i{
+ 	.footer-all .footer-center i{
 		margin-left: 0;
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }  
+    }
