@@ -245,9 +245,7 @@ margin-bottom: 100px;
     margin-top: 20px;
 }
 
-.img-humans{
-    display: none;
-}
+
 .single-pic{
     max-width: 200px;
     
@@ -549,6 +547,8 @@ margin-top: 20px;
     display: flex;
     width: 200px;}
 
+    }
+
 /*Get involved media*/
 
 .h1-get{
@@ -562,9 +562,16 @@ margin-top: 20px;
     justify-content: center; 
     width: 600px;   
 }
-}
-/*Mediaqueries end*/
 
+/*Mediaqueries end*/
+@media only screen and (max-width:1050px){
+
+.img-humans{
+    display:none
+}
+
+
+}
 /*Footer*/
 
 .footer-all{
