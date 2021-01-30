@@ -3,128 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/mystyle.css">
-   
-    <script src="https://use.fontawesome.com/ed13589c99.js"></script>
-    <title>Home | community Science museum</title>
-    <meta name="description" 
-    content="An introduction to what this museum has to offer">
+    <meta name="description" content="Communnity Science Museum Homepage">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Homepage</title>
 </head>
 <body>
-    <header> 
-        <nav>
-         <img src="media/Logos/pic-1.jpg" alt="logo" class="logo">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Explore.html">Explore</a></li>
-                <li><a href="contact.html">info/contact</a></li>
-                <li><a href="get-involved.html">Get involved</a></li>
-            </ul>  
-        </nav>
-    </header>    
-
-    <main> 
-        <div class="index-box1">
-            <h1 class="h1-ind">COMMUNITY <br> SCIENCE <br> DISCOVER</h1>
-        </div>     
-        <div class="icon-front">
-            <div class="icon-front1">
-                <a href="/Explore.html">
-                    <img src="media/front/explore-front.jpg"
-                    alt="This is an icon 
-                    which will lead you 
-                    to the explor site" 
-                    class="icon">
-                </a>
-                <h3>Explore</h3>
-            </div>
-            
-            <div class="icon-front1">
-                <a href="/contact.html">
-                        <img src="media/front/info-front.jpg" 
-                        alt="This is an icon 
-                        which will lead you to the 
-                        info and contact site"
-                        class="icon">
-                </a>
-                <h3>Info</h3>
-            </div>
-             
-            <div class="icon-front1">
-                <a href="/get-involved.html">
-                    <img src="media/Get-involved/get-involved-icon.jpg"
-                    alt="This is an icon 
-                    which will lead you to the
-                    get-involved site" 
-                    class="icon">
-                </a>
-                <h3>Get-involved</h3>
-            </div>   
+    <header>
+        <div class="hamburger">
+            <img src="./media/hamburger.svg" alt="hamburger menu icon">
         </div>
 
-        <div class="pic-front">
-            <h2>New exhibitions</h2> 
-            <div class="row">
-                <div class="pic-front1">
-                    <img src="media/front/dino-front.png" alt="A picture of a dinosaur" class="pic2-front">
-                    <p class="event-all">Before the end of the world</p>
-                    <a href="Explore.html"> <button class="button-front">Read more</button></a>    
-                </div>
-                <div class="pic-front1">
-                    <img src="media/front/human-front.jpg" alt="A picture of humans" class="pic2-front">
-                    <p class="event-all">From monkeys to human</p>
-                    <a href="Explore.html"><button class="button-front"> Read more</button> </a>                                             
-                </div>
-                <div class="pic-front1">                                                     
-                    <img src="media/front/takeoff.jpg" alt="A picture of a missile " class="pic2-front">
-                    <p class="event-all">A trip outside earth</p>
-                    <a href="Explore.html"><button class="button-front"> Read more</button></a>    
-                </div>
-            </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="exhibition.html">Exhibitions</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+            </ul>
+        </nav>
+
+        <div class="logo">
+            <img src="./media/logo.svg" alt="Community science museum logo">
+        </div>
+
+        <ul class="dropdown-menu">
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="exhibition.html">Exhibitions</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+        </ul>
+    </header>
+
+    <main class="homepage-showcase">
+        <div class="headline">
+            <h1>Community Science Museum</h1>
+            <p>Come join us at the Community Science Museum where we're 
+               committed to making science accessible to all</p>
+            <ul class="btn">
+                <li><a href="explore.html">Explore</a></li>
+            </ul>
         </div>
     </main>
 
-    <footer class="footer-all">
+    <div class="mobile-nav">
+        <div class="icon yellow"><i class="far fa-clock fa-3x"></i><a href="visit.html">Visit</a></div>
+        <div class="icon blue"><i class="fas fa-users fa-3x"></i><a href="get-involved.html">Get Involved</a></div>
+        <div class="icon red"><i class="fas fa-info-circle fa-3x"></i><a href="exhibition.html">Exhibition</a></div>
+    </div>
+
     
-        <div class="footer-left">
-            <h3>Science<span>museum</span></h3>
-            <p class="footer-links">
-            <a href="index.html">Home</a>
-            ·<a href="explore.html">Explore</a>
-            ·<a href="contact.html">Info/contact</a>
-            ·<a href="get-involved.html">Get involved</a>
-            </p>
-            <p class="footer-museum-name">scincemuseum &copy; 2020</p>
-        </div>
+    <div class="news-headline yellow">
+        <h1>NEWS</h1>
+    </div>
 
-        <div class="footer-center">
-            <div>
-            <i class="fa fa-map-marker"></i>
-            <p><span>Solarvegen 56</span> Bergen, Norway</p>
-            </div>
-            <div>
-            <i class="fa fa-phone"></i>
-            <p>+47 248 61 539</p>
-            </div>
-            <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@museum.com">Museum@gmail.com</a></p>
+    <section class="news">
+        <div class="card-container">
+            <h2>Visiting Professor of Aeronautics</h2>
+            <div class="card">
+                <div class="img-container"></div>
+                <div class="card-text white-bg">
+                    <p>It is our pleasure to announce that Prof Sheila Widnall 
+                       from the Massachusetts Institute of Technology will be 
+                       delivering 3 lectures on the development of 
+                       aeronautics and where the future lies in 
+                       this exciting ‘space’.
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="footer-right">
-            <p class="footer-museum-about">
-            <span>About the museum</span>
-            Science museum is a museum where you can enjoy 
-            lot of events within science, and it is for children and adults 
-            </p>
-            <div class="footer-icons">
-            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/"><i class="fa fa-github"></i></a>
+        <div class="card-container dark-bg">
+            <h2 class="white">Night in the museum</h2>
+            <div class="card">
+                <div class="img-container2"></div>
+                <div class="card-text white-bg">
+                    <p>Get your family together for an exciting night in the museum as
+                       you sleep over beside dinosaurs and science displays. 
+                       Bring your own sleeping bag and get ready to rough 
+                       it as we go exploring the wonders of science.
+                    </p>
+                </div>
             </div>
         </div>
+
+        <div class="card-container">
+            <h2>Exhibition on Loan</h2>
+            <div class="card">
+                <div class="img-container3"></div>
+                <div class="card-text white-bg">
+                    <p>On loan from the NEMO Science Museum in Amsterdam, 
+                       the Energetica exhibition is coming to the Community 
+                       Science Museum. It’s a series of installations that allow
+                       visitors to experience the power of the elements as we 
+                       harness them. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-bg">
+            <ul class="social-media yellow">
+                <li class="fab fa-twitter fa-2x"></li>
+                <li class="fab fa-instagram fa-2x"></li>
+                <li class="fab fa-facebook fa-2x"></li>
+                <li class="fab fa-tripadvisor fa-2x"></li>
+            </ul>
     </footer>
+    
+    <script src="app.js"></script>
 </body>
 </html>
